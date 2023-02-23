@@ -8,16 +8,6 @@
     line-height: 23px;
 }
 
-@font-face {
-    font-family: 'Galano Grotesque';
-    src: local('Galano Grotesque Medium'), local('Galano-Grotesque-Medium'),
-        url('fonts/GalanoGrotesque-Medium.woff2') format('woff2'),
-        url('fonts/GalanoGrotesque-Medium.woff') format('woff'),
-        url('fonts/GalanoGrotesque-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
 .main {
     background-color: #F9F9FA;
 }
@@ -28,52 +18,18 @@
     padding-top: 80px;
 }
 
-.preview-text {
-    margin-bottom: 20px;
-    background: linear-gradient(90deg, #4343FF 0%, #F96D6D 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.main-title {
-    max-width: 845px;
-    margin: 0 auto;
-    font-family: 'Galano Grotesque';
-    font-weight: 500;
-    font-size: 46px;
-    line-height: 120%;
-    text-align: center;
-}
-
-.blocks {
+.cards {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 35px;
-    margin-top: 80px;
+    gap: 20px;
+    justify-content: center;
 }
 
-.blocks-item {
-    flex: 0 1 296px;
-    padding: 22px;
-    background-color: #FFFFFF;
+.cards-item {
+    flex: 0 0 350px;
 }
 
-.blocks-item__title {
-    margin-bottom: 28px;
-    font-size: 17px;
-    line-height: 23px;
-    text-transform: uppercase;
-}
-
-.blocks-item__text {
-    color: #5C5C5C;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 23px;
+.cards-item__image {
+    width: 300px;
+    max-height: 400px;
 }
