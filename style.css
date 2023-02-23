@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #110C11;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.main {
+    background-color: #F9F9FA;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cards-item {
+    flex: 0 0 350px;
+}
+
+.cards-item__image {
+    width: 300px;
+    max-height: 400px;
+}
